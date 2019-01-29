@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.cursoring i{
+    color: #2ebfde;
+    font-size: 25px;
+    text-align: center;
+    padding-top: 5px; 
+}
+.fa-angle-right{
+    width:40px;
+    height:35px;
+    right: 15px;
+    top:60%;
+    position: absolute;
+    border-radius:100%;
+    background: white;
+}
+
+.content{
+    background-color: deepskyblue !important;
+    color:white; 
+    margin: 0px;
+    height: 50px;
+}
+
+.fa-angle-left{
+    width:40px;
+    height:35px;
+    left: 15px;
+    top:60%;
+    position: absolute;
+    border-radius:100%;
+    background: white;
+}
+
+#contenarea {
+
+    clear:both;
+    width:100%;
+    border: 0px solid;
+    margin-top: 20px;
+    float: left;
+
+}
+
+#contenarea #side{
+    float: left;
+    width: 100%;
+    border: 0px solid;
+
+}
+#contenarea #side .thumbs{
+    width: 30%;
+    margin-left: 40px;
+    margin-bottom: 40px;
+    float: left;
+    min-height: 200px;
+    border: 1px solid #ccc;
+}
+
+#contenarea #side .thumbs h2{
+    background: #2ebfdf;
+    width: 100%;
+    text-align: center;
+    color: white;
+}
+#contenarea #side .thumbs img{
+    float: left;
+    width: 100%;
+}
+
+
+.header-home
+{
+	background:url('1.gif');
+	height:100%;
+	position: relative;
+	padding-top: 10%;
+	padding-bottom:10%;
+	overflow: hidden;
+	z-index: 1;
+}
+.col-header-text{
+	color: white;
+	
+}
+
+.col-header-text h1{
+	font-size: 60px;
+	line-height:70px;
+	letter-spacing: 0.05px;
+	font-weight: 300;
+	color: white;
+
+}
+
+.col-header-text p{
+	font-size: 16px;
+	line-height:30px;
+	margin:25px 0 54px ;
+	text-align: justify;
+	color: white;
+
+}
+
+.banner_btn{
+font-size: 14px;
+line-height: 58px;
+text-align: center !important;
+font-family: tahoma;
+font-weight: 700;
+width: 220px;
+height: 60px;
+display: inline-block;
+text-transform: uppercase;
+border-radius: 50px;
+border: 2px solid transparent;
+transition: all 0.5s linear;
+color: #2ebfde;
+background: white;
+margin-right: 10px;
+
+}
+
+.navbar{
+	padding: 20px 0;
+    margin-top: 50px;
+    margin-bottom: 50px;
+	border-bottom: none !important;
+	transition: all 0.5s ease-in-out;
+}
+
+.navbar ul li a{
+	color: white !important;
+	text-transform: uppercase;
+	font-weight: 600;
+	letter-spacing: 1px;
+	font-size: 13px;
+	transition: all 0.5s ease-in-out;
+	background:transparent !important;
+}
+
+.navbar ul li a:hover, .navbar ul li a:focus{
+	color: deepskyblue !important;
+	background: none !important;
+}
+
+.navbar-toggle{
+	border: 1px solid white !important;
+	color: white !important;
+	transition: all 0.5s ease-in;
+}
+
+.iconbar{
+	color: white !important;
+	background-color: white !important; 
+}
+
+.navbar-toggle:hover{
+	color: deepskyblue !important;
+
+}
+
+.navbar-inverse .nav-collapse{
+	background:transparent !important;
+
+}
+
+.navbar-inverse {
+	background:transparent !important;
+
+}
+.context-dark, .bg-gray-dark, .bg-primary {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+.footer-classic a, .footer-classic a:focus, .footer-classic a:active {
+    color: #ffffff;
+}

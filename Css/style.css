@@ -1,0 +1,133 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+
+*{
+	margin: 0;
+	padding: 0;
+}
+body{
+	font-family: 'Roboto Mono', monospace;
+}
+#login-box{
+	height: 590px;
+	width: 500px;
+	background-color:deepskyblue !important;
+	color:white;
+	top: 50%;
+	left:50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	padding: 50px 30px;
+}
+
+#forget-box,.content{
+	height: 350px;
+	width: 500px;
+	background-color:deepskyblue !important;
+	color:white;
+	top: 50%;
+	left:50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	padding: 70px 30px;
+}
+
+#signup-box,.content{
+	height: 450px;
+	width: 500px;
+	background-color:deepskyblue !important;
+	color:white;
+	top: 50%;
+	left:50%;
+	position: absolute;
+	transform: translate(-50%,-50%);
+	box-sizing: border-box;
+	padding: 70px 30px;
+}
+
+#login-box h1,#signup-box h1,#forget-box h1{
+	text-align: center;
+	font-size: 22px;
+	color: black;
+}
+
+#login-box label,#signup-box label,#forgt-box label{
+	color: black;
+	font-size: 20px;
+	font-family: sans-serif;
+	margin: 10px 30px 0 0;
+}
+
+#login-box .firstname input,#signup-box .firstname input{
+	width: 40%;
+	margin:30px 35px 20px 0px;
+}
+
+#login-box .ep input,#signup-box .ep input,#forget-box .ep input{
+	width: 100%;
+	margin-bottom:20px;
+}
+
+#login-box .gender1 input
+{
+	margin: 20px 0px 0px 0px;
+}
+
+#login-box input[type="text"],#signup-box input[type="text"],#forget-box input[type="text"]{
+	border:none;
+	border:1px solid #fff;
+	padding-left: 10px;
+	border-radius: 5px;
+	background: white;
+	outline: red;
+	height: 40px;
+	color:black;
+	font-size: 16px;
+}
+
+#login-box input[type="email"],input[type="password"],#signup-box input[type="email"],input[type="password"],#forget-box input[type="email"],input[type="password"]{
+	border:none;
+	border:1px solid #fff;
+	border-radius: 5px;
+	padding-left: 10px;
+	background: white;
+	outline: red;
+	height: 40px;
+	color:black;
+	font-size: 16px;
+}
+#login-box input[type="submit"],#signup-box input[type="submit"],#forget-box input[type="submit"]{
+	border:none;
+	border-radius: 5px;
+	height: 50px;
+	width: 200px;
+	padding: 10px 20px;
+	color:deepskyblue !important;
+	font-size:18px;
+	outline:none;
+	background-color:white;
+}
+
+#login-box input[type="submit"]:hover,#signup-box input[type="submit"]:hover,#forget-box input[type="submit"]:hover{
+	cursor: pointer;
+	background:#a4e388;
+	color:#000;
+}
+
+#login-box a,#signup-box a,#forget-box a{
+	text-decoration: none;
+	color:darkgrey;
+	font-size: 12px;
+	line-height: 20px;
+}
+.error {
+  width: 92%; 
+  margin: 0px auto; 
+  padding: 10px; 
+  border: 1px solid #a94442; 
+  color: #a94442; 
+  background: #f2dede; 
+  border-radius: 5px; 
+  text-align: left;
+}

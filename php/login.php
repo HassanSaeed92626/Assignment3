@@ -25,16 +25,7 @@
 	</div>
 </body>
 <script>
-	function check_F_Name(){
-		var reN = /^[A-Za-z]{3,25}$/;
-		var f = document.getElementById('fn').value;
-		if(reN.test(f)){
-			document.getElementById('fres').innerHTML="VALID NAME";
-		}
-		else
-		{
-			document.getElementById('fres').innerHTML="INVALID NAME";
-		}
+	
 	}
 </script>
 </html>

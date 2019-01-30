@@ -24,7 +24,7 @@
 		</form>
 	</div>
 </body>
-<script>
+/*<script>
 	function check_F_Name(){
 		var reN = /^[A-Za-z]{3,25}$/;
 		var f = document.getElementById('fn').value;
@@ -36,5 +36,5 @@
 			document.getElementById('fres').innerHTML="INVALID NAME";
 		}
 	}
-</script>
+</script>*/
 </html>

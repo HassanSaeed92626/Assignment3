@@ -1,12 +1,4 @@
-<?php 
-	include('server.php'); 
-?>
-<!DOCTYPE html>
-<html>
-<head>
-	<title>Forget Password</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
-</head>
+
 <body>
 	<div id="forget-box">
 		<h1>Forget Password</h1>
